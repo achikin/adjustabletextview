@@ -27,10 +27,30 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDw-jo-T9w">
+                                <rect key="frame" x="159.5" y="236" width="281" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View that goes down as you type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7t-9Z-Zf1">
+                                        <rect key="frame" x="14" y="53" width="252" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="281" id="7qm-cB-xng"/>
+                                    <constraint firstAttribute="height" constant="128" id="cDV-c0-gMA"/>
+                                    <constraint firstItem="M7t-9Z-Zf1" firstAttribute="centerY" secondItem="MDw-jo-T9w" secondAttribute="centerY" id="mFz-bS-i9w"/>
+                                    <constraint firstItem="M7t-9Z-Zf1" firstAttribute="centerX" secondItem="MDw-jo-T9w" secondAttribute="centerX" id="xr7-SZ-2jA"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="MDw-jo-T9w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="63j-J8-cR6"/>
                             <constraint firstItem="Vg7-VR-5go" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HDT-cU-x0z"/>
+                            <constraint firstItem="MDw-jo-T9w" firstAttribute="top" secondItem="Vg7-VR-5go" secondAttribute="bottom" constant="53" id="Ytc-w0-6Kw"/>
                             <constraint firstItem="Vg7-VR-5go" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="130" id="bXu-rF-Ug8"/>
                         </constraints>
                     </view>
@@ -41,6 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="350"/>
         </scene>
     </scenes>
 </document>
