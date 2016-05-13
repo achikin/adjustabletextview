@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdjustableTextView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,12 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Print more lines here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2q5-y5-BHR">
-                                <rect key="frame" x="131" y="156" width="338" height="33"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Print more lines here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vg7-VR-5go">
+                                <rect key="frame" x="131" y="150" width="338" height="33"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="338" id="NMA-gs-StI"/>
-                                    <constraint firstAttribute="height" constant="33" id="wiZ-dO-Tyf"/>
+                                    <constraint firstAttribute="height" constant="33" id="6hY-It-Hsf"/>
+                                    <constraint firstAttribute="width" constant="338" id="879-ow-cVF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -30,18 +30,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2q5-y5-BHR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="136" id="5c0-CT-H0C"/>
-                            <constraint firstItem="2q5-y5-BHR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b5a-ku-1hU"/>
+                            <constraint firstItem="Vg7-VR-5go" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HDT-cU-x0z"/>
+                            <constraint firstItem="Vg7-VR-5go" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="130" id="bXu-rF-Ug8"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="textView" destination="2q5-y5-BHR" id="Wtd-W8-kR8"/>
-                        <outlet property="textViewHeightConstraint" destination="wiZ-dO-Tyf" id="U4N-uy-H2j"/>
+                        <outlet property="textView" destination="Vg7-VR-5go" id="iIM-7p-qUJ"/>
+                        <outlet property="textViewHeightConstraint" destination="6hY-It-Hsf" id="YEj-Qx-ixE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="350"/>
         </scene>
     </scenes>
 </document>
