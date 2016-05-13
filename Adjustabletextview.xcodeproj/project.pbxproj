@@ -38,7 +38,7 @@
 		AB21FD5F1CE5581E00296813 = {
 			isa = PBXGroup;
 			children = (
-				AB21FD6A1CE5581E00296813 /* AdjustableTextView */,
+				AB21FD6A1CE5581E00296813 /* Adjustabletextview */,
 				AB21FD691CE5581E00296813 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB21FD6A1CE5581E00296813 /* AdjustableTextView */ = {
+		AB21FD6A1CE5581E00296813 /* Adjustabletextview */ = {
 			isa = PBXGroup;
 			children = (
 				AB21FD6B1CE5581E00296813 /* AppDelegate.swift */,
@@ -61,6 +61,7 @@
 				AB21FD741CE5581E00296813 /* LaunchScreen.storyboard */,
 				AB21FD771CE5581E00296813 /* Info.plist */,
 			);
+			name = Adjustabletextview;
 			path = AdjustableTextView;
 			sourceTree = "<group>";
 		};
@@ -99,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AB21FD631CE5581E00296813 /* Build configuration list for PBXProject "AdjustableTextView" */;
+			buildConfigurationList = AB21FD631CE5581E00296813 /* Build configuration list for PBXProject "Adjustabletextview" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -270,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB21FD631CE5581E00296813 /* Build configuration list for PBXProject "AdjustableTextView" */ = {
+		AB21FD631CE5581E00296813 /* Build configuration list for PBXProject "Adjustabletextview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB21FD781CE5581E00296813 /* Debug */,
@@ -286,6 +287,7 @@
 				AB21FD7C1CE5581E00296813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
